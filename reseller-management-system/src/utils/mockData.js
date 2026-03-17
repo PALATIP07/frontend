@@ -1,7 +1,7 @@
 // Initial Seed Data
 const defaultUsers = [
   { id: 1, role: 'ADMIN', email: 'admin@admin.com', password: 'password', fullname: 'Super Admin' },
-  { id: 2, role: 'RESELLER', email: 'reseller@test.com', password: 'password', fullname: 'John Reseller', shopName: 'johnshop', phone: '1234567890', status: 'APPROVED', wallet: 0 }
+  { id: 2, role: 'RESELLER', email: 'reseller@test.com', password: 'password', fullname: 'John Reseller', shopName: 'johnshop', phone: '1234567890', status: 'APPROVED', wallet: 0, shopProducts: [{ productId: 1, sellingPrice: 250 }, { productId: 2, sellingPrice: 950 }] }
 ];
 
 const defaultProducts = [
